@@ -63,10 +63,6 @@ void opsi4() {
   print('luas segitiga anda adalah $hasil1 cm');
 }
 
-void ulang() {
-  stdout.write('mau menghitung lagi (y/n) :');
-}
-
 void main() {
   menu();
   pilihan();
