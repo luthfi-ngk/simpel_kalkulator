@@ -1,8 +1,6 @@
 import 'dart:io';
 
 void menu() {
-  // line ini dibiarkan kosong
-
   print('''
   ===Kalkulator Sederhana===
   Nama : Muhammad Luthfi Aziz
@@ -69,13 +67,10 @@ void thanks() {
   print('Terimakasih, Sampai Jumpa Lagi ^-^');
 }
 
-<<<<<<< HEAD
 void cobaLagi() {
   print('Mohon Maaf, Koreksi Lagi Pilihan Anda');
 }
 
-=======
->>>>>>> fitur_thanks
 void main() {
   menu();
   pilihan();
