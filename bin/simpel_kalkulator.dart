@@ -63,6 +63,10 @@ void opsi4() {
   print('luas segitiga anda adalah $hasil1 cm');
 }
 
+void thanks() {
+  print('Terimakasih, Sampai Jumpa Lagi ^-^');
+}
+
 void main() {
   menu();
   pilihan();
@@ -70,16 +74,16 @@ void main() {
 
   if (pilih == '1') {
     opsi1();
-    print('Sampai Jumpa Lagi');
+    thanks();
   } else if (pilih == '2') {
     opsi2();
-    print('Sampai Jumpa Lagi');
+    thanks();
   } else if (pilih == '3') {
     opsi3();
-    print('Sampai Jumpa Lagi');
+    thanks();
   } else if (pilih == '4') {
     opsi4();
-    print('Sampai Jumpa Lagi');
+    thanks();
   } else {
     print('Mohon koreksi lagi pilihan Anda');
   }
