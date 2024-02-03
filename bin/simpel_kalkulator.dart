@@ -70,7 +70,7 @@ void thanks() {
 }
 
 void cobaLagi() {
-  print('Mohon Koreksi Lagi Pilihan Anda');
+  print('Mohon Maaf, Koreksi Lagi Pilihan Anda');
 }
 
 void main() {
