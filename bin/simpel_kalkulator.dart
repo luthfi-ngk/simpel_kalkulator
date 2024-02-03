@@ -45,20 +45,20 @@ void opsi2() {
 }
 
 void opsi3() {
-  stdout.write('nilai tagihan : Rp ');
+  stdout.write('Nilai Tagihan : Rp ');
   double a = double.parse(stdin.readLineSync()!);
 
   double ppn = a * 11 / 100;
   double total = a + ppn;
-  print('pajak ppn anda adalah Rp $ppn');
-  print('total yang harus anda bayar adalah Rp $total');
+  print('Pajak ppn Anda adalah Rp $ppn');
+  print('Total yang harus anda bayar adalah Rp $total');
 }
 
 void opsi4() {
-  stdout.write('panjang segitiga (cm) : ');
+  stdout.write('Panjang segitiga (cm) : ');
   double a = double.parse(stdin.readLineSync()!);
 
-  stdout.write('tinggi segitiga (cm) : ');
+  stdout.write('Tinggi segitiga (cm) : ');
   double b = double.parse(stdin.readLineSync()!);
 
   double hasil1 = 0.5 * a * b;
@@ -69,10 +69,13 @@ void thanks() {
   print('Terimakasih, Sampai Jumpa Lagi ^-^');
 }
 
+<<<<<<< HEAD
 void cobaLagi() {
   print('Mohon Maaf, Koreksi Lagi Pilihan Anda');
 }
 
+=======
+>>>>>>> fitur_thanks
 void main() {
   menu();
   pilihan();
